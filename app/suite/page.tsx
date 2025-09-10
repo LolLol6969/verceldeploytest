@@ -8,7 +8,6 @@ const suites = [
   {
     name: "Ocean Dream",
     image: "/luxury-ocean-view-suite-with-modern-design.png",
-    guests: "2 Ospiti",
     size: "45 mq",
     feature: "Vista Mare Panoramica",
     price: "€280",
@@ -19,7 +18,6 @@ const suites = [
   {
     name: "Sky Loft",
     image: "/luxury-penthouse-suite-with-sky-view.png",
-    guests: "4 Ospiti",
     size: "65 mq",
     feature: "Terrazza Privata",
     price: "€420",
@@ -30,7 +28,6 @@ const suites = [
   {
     name: "Garden Haven",
     image: "/luxury-garden-suite-with-private-patio.png",
-    guests: "3 Ospiti",
     size: "55 mq",
     feature: "Giardino Privato",
     price: "€350",
@@ -41,7 +38,6 @@ const suites = [
   {
     name: "Elysian Presidential",
     image: "/luxury-presidential-suite-with-elegant-decor.png",
-    guests: "6 Ospiti",
     size: "120 mq",
     feature: "Suite Presidenziale",
     price: "€750",
@@ -113,12 +109,8 @@ export default function SuitePage() {
                     <span className="text-gray-600 ml-1">{suite.period}</span>
                   </div>
                 </div>
-                <div className="space-y-2 mb-4">
                   <p className="text-gray-700">
-                    <span className="font-semibold">Ospiti:</span> {suite.guests}
-                  </p>
-                  <p className="text-gray-700">
-                    <span className="font-semibold">Metratura:</span> {suite.size}
+                    <span className="font-semibold">Metratura:</span> {suite.posti}
                   </p>
                   <p className="text-gray-700">
                     <span className="font-semibold">Caratteristica:</span> {suite.feature}
