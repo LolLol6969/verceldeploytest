@@ -8,42 +8,38 @@ const suites = [
   {
     name: "Ocean Dream",
     image: "/luxury-ocean-view-suite-with-modern-design.png",
-    size: "45 mq",
+    roomType: "XXL", // Sostituito 'size'
     feature: "Vista Mare Panoramica",
     price: "€280",
     period: "a notte",
-    description:
-      "Suite elegante con vista diretta sull'Adriatico, arredata con mobili di design e dotata di tutti i comfort moderni.",
+    description: "Suite elegante con vista diretta sull'Adriatico, arredata con mobili di design e dotata di tutti i comfort moderni.",
   },
   {
     name: "Sky Loft",
     image: "/luxury-penthouse-suite-with-sky-view.png",
-    size: "65 mq",
+    roomType: "MX", // Sostituito 'size'
     feature: "Terrazza Privata",
     price: "€420",
     period: "a notte",
-    description:
-      "Loft di lusso al piano superiore con terrazza panoramica privata e vista a 360° sul mare e sulla pineta.",
+    description: "Loft di lusso al piano superiore con terrazza panoramica privata e vista a 360° sul mare e sulla pineta.",
   },
   {
     name: "Garden Haven",
     image: "/luxury-garden-suite-with-private-patio.png",
-    size: "55 mq",
+    roomType: "MD", // Sostituito 'size'
     feature: "Giardino Privato",
     price: "€350",
     period: "a notte",
-    description:
-      "Suite immersa nel verde con accesso diretto al giardino privato, perfetta per chi cerca tranquillità e privacy.",
+    description: "Suite immersa nel verde con accesso diretto al giardino privato, perfetta per chi cerca tranquillità e privacy.",
   },
   {
     name: "Elysian Presidential",
     image: "/luxury-presidential-suite-with-elegant-decor.png",
-    size: "120 mq",
+    roomType: "XXV", // Sostituito 'size'
     feature: "Suite Presidenziale",
     price: "€750",
     period: "a notte",
-    description:
-      "La suite più esclusiva del resort con salone privato, camera matrimoniale, bagno di lusso e servizio maggiordomo dedicato.",
+    description: "La suite più esclusiva del resort con salone privato, camera matrimoniale, bagno di lusso e servizio maggiordomo dedicato.",
   },
 ]
 
@@ -110,7 +106,7 @@ export default function SuitePage() {
                   </div>
                 </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Metratura:</span> {suite.posti}
+                    <span className="font-semibold">Tipo Camera:</span> {suite.roomType}
                   </p>
                   <p className="text-gray-700">
                     <span className="font-semibold">Caratteristica:</span> {suite.feature}
