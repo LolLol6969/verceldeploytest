@@ -111,7 +111,7 @@ export default function SuitePage() {
                   <p className="text-gray-700">
                     <span className="font-semibold">Caratteristica:</span> {suite.feature}
                   </p>
-                </div>
+            
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">{suite.description}</p>
                 <button className="w-full bg-elysian-primary text-elysian-secondary py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all duration-300">
                   Verifica Disponibilità
