@@ -57,7 +57,7 @@ export default function HomePage() {
           <div className="glass-panel p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-readable-dark mb-6">Benvenuti al Paradiso</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-readable-dark mb-6">Benvenuti in Paradiso</h2>
                 <p className="text-lg text-gray-900 mb-6 leading-relaxed font-medium">
                   Elysian Sands Resort rappresenta l'epitome dell'eleganza e del comfort. Situato nella suggestiva
                   cornice di Lido degli Estensi, il nostro resort offre un'esperienza unica dove ogni dettaglio è
