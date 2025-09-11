@@ -8,7 +8,7 @@ const suites = [
   {
     name: "Ocean Dream",
     image: "/luxury-ocean-view-suite-with-modern-design.png",
-    roomType: "XXL", // Sostituito 'size'
+    roomType: "XXD", // Sostituito 'size'
     feature: "Vista Mare Panoramica",
     price: "€280",
     period: "a notte",
